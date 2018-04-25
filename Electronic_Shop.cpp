@@ -1,3 +1,4 @@
+//https://www.hackerrank.com/challenges/electronics-shop/problem
 #include<iostream>
 
 using namespace std;
@@ -22,5 +23,5 @@ for(int i=0; i<n; i++){
     money_spent = keyboard[i] + usb_drives[j];
   }
 }
-cout << "money_spent:"<<money_spent<<endl;
+cout <<money_spent<<endl;
 }
